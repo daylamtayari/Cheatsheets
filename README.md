@@ -1,10 +1,12 @@
 # Cheatsheets
 
-**This repository contains all of my cheatsheets, most of which I use on a daily level.**
+**This repository contains all of my cheatsheets, most of which I use on a daily level.**  
 
 **If you have any suggestions, notice any issues, etc. feel free to create an issue.**  
 
-**All cheatsheets are copyright to Daylam Tayari and licensed under [GPL v3](https://github.com/daylamtayari/Cheatsheets/blob/master/LICENSE).**
+**All cheatsheets are copyright to Daylam Tayari and licensed under [GPL v3](https://github.com/daylamtayari/Cheatsheets/blob/master/LICENSE).** 
+
+**This is a constant work in progress that I am continously expanding as I gain more experience over time.**
 <br>
 <br>
 
@@ -17,5 +19,5 @@
 ## Languages:
 
 ## Encryption:
-
+- [PGP Cheatsheet](https://github.com/daylamtayari/Cheatsheets/blob/master/Encryption/PGP-Cheatsheet.md).
 ## Miscallaneous:
