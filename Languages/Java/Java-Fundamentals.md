@@ -15,8 +15,7 @@
     - Double: 8 bytes.
 - Char: 2 bytes per character.
 - Boolean: 1 bit.  
-<br>
-**Reference Data Types:**
+**Reference Data Types:**  
 - String.
 
 ## Value Types:
