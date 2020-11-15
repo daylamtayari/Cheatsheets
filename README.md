@@ -17,6 +17,7 @@
 ## Networking:
 
 ## Languages:
+### Java:
 - [Java Fundamentals Cheatsheet](https://github.com/daylamtayari/Cheatsheets/blob/master/Languages/Java/Java-Fundamentals.md).
 ## Encryption:
 - [PGP Cheatsheet](https://github.com/daylamtayari/Cheatsheets/blob/master/Encryption/PGP.md).
