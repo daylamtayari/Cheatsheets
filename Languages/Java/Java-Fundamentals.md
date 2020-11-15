@@ -93,7 +93,8 @@ words2=github.split(".");
 String[] words=new String[3];
 words=github.split("[./]");
 
-words: |github|com|daylamtayari|
+//Result:
+words:  |github|com|daylamtayari|
 words2: |github|com/daylamtayari|
 ```
 
@@ -112,6 +113,94 @@ words2: |github|com/daylamtayari|
 - Can call an instance variable.
 - Can call a static method.
 - Can call a static variable.
+
+## Arrays:
+### Regular Arrays:
+#### Declaring:
+Java regular arrays are fixed length.  
+You can declare arrays the following ways:
+```java
+//Regular arrays:
+String[] arr;
+String[] arr1=new String[7];
+String[] arr2={"github.com/daylamtayari", "tayari.gg"};
+
+//2D arrays:
+String[][] arr2D;
+String[][] arr2D1=new String[5][6];
+int[][] arr2D2={{1,2},{1-1,1-2,1-3}};
+```
+
+#### Accessing and Modifying an Array Element:
+```java
+//Regular arrays:
+String github=arr2[0];
+String fullLink="https://github.com/daylamtayari";
+arr[0]=fullLink;
+
+//2D arrays:
+int num1=arr[0][0];
+num1: 1
+int num3=arr[1][2];
+num3: 1-3
+```
+#### Array Length:
+```java
+int length=arr2.length;
+```
+#### Looping through an Array:
+```java
+//Using a for-loop:
+for(int i=0;i<arr2.length;i++){
+    System.out.println(arr2[i]);
+}
+
+//Using a for-each-loop:
+for(String i: arr2){
+    System.out.println(arr[i]);
+}
+```
+<br> 
+
+### ArrayLists:
+ArrayLists need to be imported to use them. They are located in the `java.util` package.  
+To import them: `import java.util.ArrayList;`  
+#### Declaring ArrayLists:
+```java
+ArrayList<String> al=new ArrayList<String>();
+```
+#### Adding a Value:
+The `.add()` method will append the value to the end of the ArrayList.  
+To add the value to a specific index do `.add([index], [value]);`.
+```java
+//To append a value to the end of the list:
+al.add("github.com/daylamtayari");
+
+//To add at a specific index:
+al.add(0,"tayari.gg");
+```
+#### Accessing and Modifying a Value:
+```java
+String website=al.get(0);
+
+al.set(0, "https://tayari.gg");
+```
+#### Removing a Value:
+```java
+al.remove(0);
+al.clear();
+```
+#### ArrayList Length:
+```java
+al.size();
+```
+#### Looping Through an ArrayList:
+```java
+for(int i=0;i<al.size();i++){
+    System.out.println(al.get(i));
+}
+```
+
 
 ## Abstract Methods:
 - An abstract method is a method with only the header and no method body that is called in it's child classes. i.e. `public void abstract();`.
