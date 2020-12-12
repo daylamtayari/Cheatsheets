@@ -15,6 +15,7 @@
     - Double: 8 bytes.
 - Char: 2 bytes per character.
 - Boolean: 1 bit.  
+  
 **Reference Data Types:**  
 - String.
 
@@ -201,7 +202,68 @@ for(int i=0;i<al.size();i++){
 }
 ```
 
+## Loops:   
+### For Loop:  
+**A for loop is is a type of loop which iterates for a set amount of time which is controlled by a loop value.**
+#### Standard Format:
+```java
+for([value]; [value]<[maximum value]; [value][modification)){
+    //Loop contents.
+}
+```
+#### Example:
+```java
+//Loop that iterates 60 times.
+for(int i=0; i<60; i++){
+    //Loop contents.
+}
 
+//Loop that goes through every element of an array:
+ArrayList<String> array=new ArrayList<String>();
+for(int i=0; i<array.size(); i++){
+    //Loop contents:
+    array.get(i);
+}
+```
+   
+### For-Each Loop:
+**A for-each loop is an array type that allows for simplified traversal across arrays or collections.**
+**It works essentially the same as a for loop, just the code is simpler and more readable.**
+#### Standard Format:
+```java
+for([array type] [loop value]: [array name]){
+    //Loop contents.
+}
+```
+#### Example:
+```java
+String[] arr=new String[10];
+for(String stringValue: arr){
+    //Print the entire array:
+    System.out.println(stringValue);
+}
+```
+
+### While Loop:
+**A while loop is a loop type that is based on a boolean condition.**  
+**A while loop is continuous for as long as it's boolean condition is true.**  
+**CAUTION: If misconfigured, a while loop could run infinitely.**  
+#### Standard Format:
+```java
+while([boolean type condition]){
+    //Loop contents.
+}
+```
+#### Example:
+```java
+boolean condition=true;
+while(condition){
+    //Loop contents.
+    // ...
+    condition=false;
+}
+```
+    
 ## Abstract Methods:
 - An abstract method is a method with only the header and no method body that is called in it's child classes. i.e. `public void abstract();`.
 - Any class that have one or more abstract methods must be declared as abstract.
